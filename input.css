@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'DM Serif Display', serif;
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply font-medium text-gray-400 hover:text-gray-50 duration-300;
+    }
+    .btn-primary {
+        @apply font-semibold shadow-yellow-900 shadow-lg text-gray-950 px-4 py-2 bg-yellow-600 hover:bg-yellow-700 rounded-md duration-300;
+    }
+}
