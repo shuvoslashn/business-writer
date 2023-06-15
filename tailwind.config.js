@@ -3,9 +3,9 @@ module.exports = {
     content: ['./*.html'],
     theme: {
         extend: {
-            fontFamily: {
-                
-            }
+            container: {
+                center: true,
+            },
         },
     },
     plugins: [],
